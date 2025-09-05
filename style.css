@@ -105,4 +105,51 @@ body, html {
   display: none;             /* Chrome, Edge, Safari */
 }
 
+/* Bottom Bar */
+.bottombar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 0;
+  z-index: 20;
+}
+
+.bottom-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-links li a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 16px;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.bottom-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+.bottom-links li a:hover::after {
+  width: 100%;
+}
+
+.bottom-links li a:hover {
+  color: #ff0000;
+}
 
