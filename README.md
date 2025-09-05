@@ -30,8 +30,10 @@ A **modern, responsive website** built from scratch using:
   👉 [https://kdag-web-25-mi-10034-asmit-sarkar-jb9te2qag.vercel.app](https://kdag-web-25-mi-10034-asmit-sarkar-jb9te2qag.vercel.app)
 
 
-  
-<img width="1000" height="1000" alt="qrcode_246515342_2acd3d318056fbb89600f20e8ea5657a" src="https://github.com/user-attachments/assets/1e5639d6-8e03-40bd-9f82-3ee9b72edfb8" />
+<img width="300" height="300" alt="123" src="https://github.com/user-attachments/assets/f73160a9-ba3c-43c2-bbf6-38aaf4d73728" />
+
+
+
 
 ---
 
