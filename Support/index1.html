@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+
+  <!-- Quiz Section -->
+  <div id="quiz-section">
+    <div class="quiz-container">
+
+      <!-- Start Screen -->
+      <div id="start-screen">
+        <h1>Welcome to KDAG Quiz 🎯</h1>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+
+      <!-- Question Screen -->
+      <div id="question-screen" class="hidden">
+        <h2 id="question-text"></h2>
+        <div id="options" class="options"></div>
+        <button id="next-btn" class="hidden">Next</button>
+      </div>
+
+      <!-- Result Screen -->
+      <div id="result-screen" class="hidden">
+        <h2 id="score-text"></h2>
+        <button id="restart-btn">Restart Quiz</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
